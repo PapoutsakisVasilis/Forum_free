@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*-- General rules --*/
+.container{
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/*-- Forms --*/
+form{
+    margin: 0;
+}
+
+.form-group{
+    margin-bottom: 8px;
+}
+
+.form-control{
+    font-size: 13px;
+    width: 100%;
+    padding: 3px;
+}
+
+/*-- Panels --*/
+.panel{
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0, 0.3)
+}
+
+/*-- Buttons --*/
+.btn{
+    font-size: 13px;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+
+.btn-primary{
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: #3498db;
+}
